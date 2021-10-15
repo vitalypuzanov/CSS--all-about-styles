@@ -113,3 +113,35 @@ Justefi-self - выравниваение по горизонтали :
 ![grid](./g11.png)
 - center
 ![grid](./g12.png)
+
+
+## Выравнивание контента 
+
+Выравнивание в контейнере иммет такие же свойтсва как и flex 
+
+     justfi content: start ,end ,center ,space-around, space-betwenn, space, space-evnly 
+     align content: start ,end ,center ,space-around, space-betwenn, space, space-evnly 
+
+
+## Управлять порядком элементов внутри grid-контейнера 
+
+Как fkex direction
+
+    Grid auto-flow: row, column Dense
+
+Dense - позволяет при разных размерах не оставлять пустого пространства.
+
+<b>ДО<b>
+
+![grid](./g13.png)
+
+<b>После<b>
+
+![grid](./g14.png)
+
+Свойство order задает порядок 
+
+    order: -1 
+
+![grid](./g15.png)
+
